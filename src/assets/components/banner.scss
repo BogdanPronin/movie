@@ -1,0 +1,38 @@
+@import "../utils/mixins.scss";
+.banner{
+
+    &__bg{
+        background-size: auto 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+
+    }
+    &__inner{
+        height: 500px;
+        padding: 0px 64px;
+        display: flex;
+        align-items: center;
+
+        width: 45%;
+        background-image: linear-gradient(to right, black 80%, transparent 100%);
+        
+    }
+    &__content{
+    h1{
+        font-size:34px;
+        margin-bottom: 24px;
+    }
+    p{
+        width: 70%;
+        line-height: 24px;
+        opacity: 0.8;
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+    button{
+        
+        @include button;
+
+    }
+}
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "./utils/vars.scss";
+body {
+  background-color: $black;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+@import url(./components/layout.scss) ;
+@import url(./components/banner.scss);
+@import url(./components/slider.scss);
+@import url(./components/tabs.scss);
+@import url(./components/about.scss);
